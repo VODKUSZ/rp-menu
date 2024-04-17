@@ -18,3 +18,20 @@ nav a {
     background-color: red;
   }
 }
+#elozo,
+#kovetkezo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+#elozo {
+  left: 0;
+}
+#kovetkezo {
+  right: 0;
+}
+#vissza {
+}
