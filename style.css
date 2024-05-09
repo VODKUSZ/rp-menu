@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .padding {
-  padding: 30px;
+  padding: 10px;
 }
 nav {
   background-color: #100c08;
@@ -16,9 +16,6 @@ nav {
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
 }
-.nagykep {
-  height: 600px;
-}
 nav a {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -28,8 +25,11 @@ nav a {
   nav {
     flex-direction: column;
     height: auto;
-    background-color: red;
-  }
+    background-color: rgb(0, 0, 0);
+  }  
+}
+.nagykep {
+  height: 600px;
 }
 .nagykep {
   margin: 0;
@@ -39,3 +39,18 @@ nav a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.galleria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.galleria img {
+  width: 185px;
+  height: auto;
+  height: 150px;
+  border: solid black;
+  border-radius: 3px;
+}
+
+
